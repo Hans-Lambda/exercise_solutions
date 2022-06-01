@@ -151,25 +151,18 @@ class RentManagement(UserManagement, Bill, Bike):
         users_management = UserManagement()
         user = users_management.manage()
         list_of_bikes = self.bycicles_list()
+        [print(bike) for bike in list_of_bikes]
 
-        counter = 1
-        dict_of_bikes = {}
-        for bike in list_of_bikes:
-            dict_of_bikes[counter] = bike
-            counter += 1
-
-        choice = int(input("Please choose a bike: >>> "))
+        choice = int(input("Please choose a bike by ID: >>> "))
 
         for bike in db.bikes:
-            if dict_of_bikes.get(choice) == bike:
+            if choice == bike.id:
                 self.new_contract(user, bike)
 
     def bycicles_list(self):
-        list_of_bikes = {}
-        counter = 1
+        list_of_bikes = []
         for bike in db.bikes:
-            list_of_bikes[counter] = [f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, ID: {bike.id}"]
-            counter += 1
+            list_of_bikes.append(f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, ID: {bike.id}")
         return list_of_bikes
 
     def new_contract(self, user, bike):
