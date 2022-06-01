@@ -108,12 +108,26 @@ class UserManagement(User):
 
     def login(self):
 
-        username = input("Username: >>> ")
-        password = input("Password: >>> ")
+        counter = 0
 
-        for user in db.users:
-            if username == user.username and password == user.password:
-                return user
+        while True:
+            if counter == 3:
+                print("You provided wrong login data three times. Contact the admin!")
+                break
+            try:
+                username = input("Username: >>> ")
+                password = input("Password: >>> ")
+
+                check = False
+                for user in db.users:
+                    if username == user.username and password == user.password:
+                        check = True
+                        return user
+
+                assert check is True
+            except AssertionError:
+                counter += 1
+                print(f"Oops! Wrong Login data. {3 - counter} tries left. Try again...")
 
     def register(self):
 
@@ -139,14 +153,22 @@ class UserManagement(User):
         # maybe add update data
         print("2. Register")
         print("0. Exit")
-        option = -1
-        option = int(input("Type an option >> "))
 
-        if option == 1:
-            return self.login()
+        while True:
+            try:
+                option = int(input("Type an option >>> "))
 
-        elif option == 2:
-            return self.register()
+                if option == 1:
+                    return self.login()
+
+                elif option == 2:
+                    return self.register()
+                elif option == 0:
+                    break
+
+                assert option in [0, 1, 2]
+            except AssertionError:
+                print("Oops! That was no valid number. Try again...")
 
 
 class RentManagement(UserManagement, Bill, Bike):

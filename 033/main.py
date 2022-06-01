@@ -37,5 +37,7 @@ if __name__ == '__main__':
         elif option == 5:
             print(rent_management.report())
         elif option == 6:
+            user = None
             user = rent_management.manage()
-            bike.add_bike(user)
+            if user is True:
+                bike.add_bike(user)
