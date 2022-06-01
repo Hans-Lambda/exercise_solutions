@@ -22,16 +22,32 @@ class Bill:
         print("1. By KM - 2.00 EUR per km")
         print("2. By Days - 25.00 EUR per day")
         print("3. By Hour - 5.00 EUR per hour")
-        choice = int(input("How would you like to pay? >>>"))
+        # choice = int(input("How would you like to pay? >>>"))
 
-        while choice != 0:
+        # while choice in [1, 2, 3]:
+        #
+        #     if choice == 1:
+        #         return lambda amount: amount * 2
+        #     elif choice == 2:
+        #         return lambda amount: amount * 25
+        #     elif choice == 3:
+        #         return lambda amount: amount * 5
+        # else:
+        #     self.billing_method_()
 
-            if choice == 1:
-                return lambda amount: amount * 2
-            elif choice == 2:
-                return lambda amount: amount * 25
-            elif choice == 3:
-                return lambda amount: amount * 5
+        while True:
+            try:
+                choice = int(input("How would you like to pay? >>>"))
+
+                if choice == 1:
+                    return lambda amount: amount * 2
+                elif choice == 2:
+                    return lambda amount: amount * 25
+                elif choice == 3:
+                    return lambda amount: amount * 5
+
+            except ValueError:
+                print("Oops!  That was no valid number.  Try again...")
 
     def new_bill(self, user, bike, billing_method):
 
@@ -67,6 +83,7 @@ class Bike:
         bike.status = "AVAILABLE"
 
         db.bikes.append(bike)
+        print(type(bike))
 
     def get_bike_by_id(self, bike_id):
 
