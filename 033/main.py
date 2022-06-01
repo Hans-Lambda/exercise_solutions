@@ -1,4 +1,5 @@
 from rent import RentManagement, Bike
+from crap import BullshitGenerator
 
 
 def main_menu():
@@ -15,6 +16,8 @@ def main_menu():
 
 if __name__ == '__main__':
 
+    bullshit_generator = BullshitGenerator()
+    bullshit_generator.populate()
     rent_management = RentManagement()
     bike = Bike()
 
