@@ -4,7 +4,6 @@ import main
 import datetime as dt
 
 
-
 class Bill:
 
 
@@ -55,7 +54,7 @@ class Bike:
         self.type = None
         self.partner = None
         self.status = None
-        self.status = uuid.uuid4()[:5]
+        self.id = uuid.uuid4()[:5]
 
     def add_bike(self, user, bike):
 
@@ -68,10 +67,10 @@ class Bike:
 
         db.bikes.append(bike)
 
-    def get_bike_by_id(self, id):
+    def get_bike_by_id(self, bike_id):
 
         for bike in db.bikes:
-            if bike.id == id:
+            if bike.id == bike_id:
                 return bike
 
 
@@ -181,12 +180,41 @@ class RentManagement(UserManagement, Bill, Bike):
         bill.new_bill(user, bike, billing)
         db.rents.append(bill)
         print(f"You successfully rented a bike!")
+        main.main_menu()
+
 
     def return_bycicle(self):
 
-        id = input("Please provide the id of the bycycle you like to return: >>>")
-        bike = Bike().get_bike_by_id(id)
+        bike_id = input("Please provide the id of the bycycle you like to return: >>>")
+        bike = Bike().get_bike_by_id(bike_id)
+        bike.status = "AVAILABLE"
+        bill_to_close = None
+        for bill in db.rents:
+            if bike == bill.bike:
+                bill_to_close = bill
+        amount = int(input("How many km/days/hours: >>> "))
+        bill_to_close.price = amount * bill_to_close.billing_method
+        print(f"You have to pay {bill_to_close.price}")
+        bill_to_close.status = "Closed"
+        main.main_menu()
 
+    def bills_list(self):
 
-        pass
+        bills_list = []
+        for bill in db.rents:
+            if bill.status == "Pending":
+                bills_list.append(bill)
 
+        [print(f"{bill.client.name} rented bike Nr. {bill.bike.id} on {bill.date}") for bill in bills_list]
+
+    def report(self):
+
+        bills_list = []
+        total = 0
+        for bill in db.rents:
+            if bill.status == "Closed":
+                bills_list.append(bill)
+                total += bill.price
+
+        [print(f"{bill.client.name} rented bike Nr. {bill.bike.id} on {bill.date}. Price: {bill.price}") for bill in bills_list]
+        print(f"Total income so far: {total} EUR")
