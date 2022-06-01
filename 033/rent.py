@@ -182,27 +182,25 @@ class RentManagement(UserManagement, Bill, Bike):
         list_of_bikes = self.bycicles_list()
         [print(bike) for bike in list_of_bikes]
 
-        # choice = input("\nPlease choose a bike by ID: >>> ")
-        #
-        # for bike in db.bikes:
-        #     if choice == bike.id:
-        #         self.new_contract(user, bike)
-
-
         while True:
             try:
                 option = input("\nPlease choose a bike by ID or type 0 to exit: >>> ")
+                rented = False
 
                 if option != "0":
                     for bike in db.bikes:
                         if option == bike.id:
-                            self.new_contract(user, bike)
+                            if bike.status == "NOT AVAILABLE":
+                                rented = True
+                                print("This bycycle is already rented out! Please choose another one!")
+                            else:
+                                self.new_contract(user, bike)
                     continue
 
                 if option == "0":
                     break
 
-                assert option in ([0] or [bike.id for bike in db.bikes])
+                assert option in ([0] or [bike.id for bike in db.bikes]) and rented is False
             except AssertionError:
                 print("Oops! That was no valid choice. Try again...")
 
