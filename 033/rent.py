@@ -1,11 +1,9 @@
 import db
 import uuid
-import main
 import datetime as dt
 
 
 class Bill:
-
 
     def __init__(self):
 
@@ -56,8 +54,9 @@ class Bike:
         self.status = None
         self.id = uuid.uuid4()[:5]
 
-    def add_bike(self, user, bike):
+    def add_bike(self, user):
 
+        bike = Bike()
         print("Please provide age, manufacturer and type!")
         bike.age = input("How old is your bike? >>> ")
         bike.manufacturer = input("Which Manufacturer? >>> ")
@@ -160,8 +159,6 @@ class RentManagement(UserManagement, Bill, Bike):
         for bike in db.bikes:
             if list_of_bikes[choice] == bike:
                 self.new_contract(user, bike)
-            else:
-                main.main_menu()
 
     def bycicles_list(self):
         list_of_bikes = {}
@@ -171,7 +168,6 @@ class RentManagement(UserManagement, Bill, Bike):
             counter += 1
         return list_of_bikes
 
-
     def new_contract(self, user, bike):
 
         bill = Bill()
@@ -180,8 +176,6 @@ class RentManagement(UserManagement, Bill, Bike):
         bill.new_bill(user, bike, billing)
         db.rents.append(bill)
         print(f"You successfully rented a bike!")
-        main.main_menu()
-
 
     def return_bycicle(self):
 
@@ -195,8 +189,8 @@ class RentManagement(UserManagement, Bill, Bike):
         amount = int(input("How many km/days/hours: >>> "))
         bill_to_close.price = amount * bill_to_close.billing_method
         print(f"You have to pay {bill_to_close.price}")
+        print("Thank you for renting from us!")
         bill_to_close.status = "Closed"
-        main.main_menu()
 
     def bills_list(self):
 
