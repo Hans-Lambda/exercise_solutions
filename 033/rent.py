@@ -16,20 +16,22 @@ class Bill:
         self.id = None
         self.price = None
 
-    def billing_method(self):
+    def billing_method_(self):
 
-        choice = int(input("How would you like to pay? >>>"))
+        print("Choose your payment method:")
         print("1. By KM - 2.00 EUR per km")
         print("2. By Days - 25.00 EUR per day")
         print("3. By Hour - 5.00 EUR per hour")
+        choice = int(input("How would you like to pay? >>>"))
+
         while choice != 0:
 
             if choice == 1:
-                return lambda a: a * 2
+                return lambda amount: amount * 2
             elif choice == 2:
-                return lambda b: b * 25
+                return lambda amount: amount * 25
             elif choice == 3:
-                return lambda c: c * 5
+                return lambda amount: amount * 5
 
     def new_bill(self, user, bike, billing_method):
 
@@ -51,7 +53,7 @@ class Bike:
         self.manufacturer = None
         self.type = None
         self.partner = None
-        self.status = None
+        self.status = "AVAILABLE"
         self.id = str(uuid.uuid4())[:5]
 
     def add_bike(self, user):
@@ -150,25 +152,30 @@ class RentManagement(UserManagement, Bill, Bike):
     def rent(self):
         users_management = UserManagement()
         user = users_management.manage()
+        print("The following bycycles are available:\n")
         list_of_bikes = self.bycicles_list()
         [print(bike) for bike in list_of_bikes]
 
-        choice = int(input("Please choose a bike by ID: >>> "))
+        choice = input("\nPlease choose a bike by ID: >>> ")
 
         for bike in db.bikes:
             if choice == bike.id:
                 self.new_contract(user, bike)
 
+    def print_bycycle_list(self):
+        for bike in db.bikes:
+            print(f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, Owner: {bike.partner.name} ID: {bike.id}")
+
     def bycicles_list(self):
         list_of_bikes = []
         for bike in db.bikes:
-            list_of_bikes.append(f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, ID: {bike.id}")
+            list_of_bikes.append(f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, Owner: {bike.partner.name} ID: {bike.id}")
         return list_of_bikes
 
     def new_contract(self, user, bike):
 
         bill = Bill()
-        billing = bill.billing_method()
+        billing = bill.billing_method_()
         bike.status = "NOT AVAILABLE"
         bill.new_bill(user, bike, billing)
         db.rents.append(bill)
@@ -177,14 +184,16 @@ class RentManagement(UserManagement, Bill, Bike):
     def return_bycicle(self):
 
         bike_id = input("Please provide the id of the bycycle you like to return: >>>")
-        bike = Bike().get_bike_by_id(bike_id)
-        bike.status = "AVAILABLE"
+        returned_bike = Bike().get_bike_by_id(bike_id)
+        for bike in db.bikes:
+            if returned_bike == bike:
+                bike.status = "AVAILABLE"
         bill_to_close = None
         for bill in db.rents:
             if bike == bill.bike:
                 bill_to_close = bill
         amount = int(input("How many km/days/hours: >>> "))
-        bill_to_close.price = amount * bill_to_close.billing_method
+        bill_to_close.price = bill_to_close.billing_method(amount)
         print(f"You have to pay {bill_to_close.price}")
         print("Thank you for renting from us!")
         bill_to_close.status = "Closed"
@@ -196,7 +205,7 @@ class RentManagement(UserManagement, Bill, Bike):
             if bill.status == "Pending":
                 bills_list.append(bill)
 
-        [print(f"{bill.client.name} rented bike Nr. {bill.bike.id} on {bill.date}") for bill in bills_list]
+        [print(f"{bill.client.name} rented bike from {bill.partner.name} Nr. {bill.bike.id} on {bill.date}") for bill in bills_list]
 
     def report(self):
 

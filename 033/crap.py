@@ -9,7 +9,7 @@ class BullshitGenerator:
     def __init__(self):
 
         self.names = ["Franz", "Billy", "Lama", "Mathias"]
-        self.usernames = ["Franz69", "Billy69", "Lama69", "Mathias69"]
+        self.usernames = ["blabla69", "creepy69", "fuckup69", "retard69"]
         self.password = ["random", "bullshit", "password", "tooeasy"]
         self.address = ["fuckstreet 69", "IwishIwasanadult 55", "bullshit corner 23", "bush did 911"]
 

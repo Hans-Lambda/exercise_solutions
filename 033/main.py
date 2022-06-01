@@ -31,7 +31,7 @@ if __name__ == '__main__':
         elif option == 2:
             rent_management.return_bycicle()
         elif option == 3:
-            print(rent_management.bycicles_list())
+            print(rent_management.print_bycycle_list())
         elif option == 4:
             print(rent_management.bills_list())
         elif option == 5:
