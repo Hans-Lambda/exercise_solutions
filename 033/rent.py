@@ -230,14 +230,24 @@ class RentManagement(UserManagement, Bill, Bike):
 
         bike_id = input("Please provide the id of the bycycle you like to return: >>> ")
         returned_bike = Bike().get_bike_by_id(bike_id)
+
         for bike in db.bikes:
             if returned_bike == bike:
                 bike.status = "AVAILABLE"
         bill_to_close = None
+
         for bill in db.rents:
             if returned_bike == bill.bike:
                 bill_to_close = bill
-        amount = int(input("How many km/days/hours: >>> "))
+
+            while True:
+                try:
+                    amount = int(input("How many km/days/hours: >>> "))
+                    break
+                except ValueError:
+                    print("Oops!  That was no valid number.  Try again...")
+
+
         bill_to_close.price = bill_to_close.billing_method(amount)
         print(f"You have to pay {bill_to_close.price} EUR")
         print("Thank you for renting from us!")
