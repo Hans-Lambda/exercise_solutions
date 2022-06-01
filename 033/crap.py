@@ -14,20 +14,17 @@ class BullshitGenerator:
         self.address = ["fuckstreet 69", "IwishIwasanadult 55", "bullshit corner 23", "bush did 911"]
 
         self.manufacturer = ["myself", "someone else", "I stole it", "no idea"]
-        self.type = ["cruiser", "trycycle", "deluxe", "tandem"]
-
-        self.rng = random.randint(1, 4) - 1
+        self.types = ["cruiser", "trycycle", "deluxe", "tandem"]
 
     def generate_user(self):
 
         user = User()
-
-        self.username = self.usernames[self.rng]
-        self.password = self.password[self.rng]
-        self.name = self.names[self.rng]
-        self.address = self.address[self.rng]
-        self.client = True
-        self.partner = True
+        user.username = self.usernames[random.randint(0, 3)]
+        user.password = self.password[random.randint(0, 3)]
+        user.name = self.names[random.randint(0, 3)]
+        user.address = self.address[random.randint(0, 3)]
+        user.client = True
+        user.partner = True
 
         return user
 
@@ -35,12 +32,12 @@ class BullshitGenerator:
 
         bike = Bike()
 
-        self.age = random.randint(1, 25)
-        self.manufacturer = self.manufacturer[self.rng]
-        self.type = self.type[self.rng]
-        self.partner = user
-        self.status = "AVAILABLE"
-        self.id = str(uuid.uuid4())[:5]
+        bike.age = random.randint(1, 25)
+        bike.manufacturer = self.manufacturer[random.randint(0, 3)]
+        bike.type = self.types[random.randint(0, 3)]
+        bike.partner = user
+        bike.status = "AVAILABLE"
+        bike.id = str(uuid.uuid4())[:5]
 
         return bike
 
@@ -52,4 +49,10 @@ class BullshitGenerator:
             bike = self.generate_bikes(user)
             db.bikes.append(bike)
 
-        print(f"{db.users.username}: {db.users.password}")
+        [print(f"{user.username}: {user.password}") for user in db.users]
+
+
+if __name__ == '__main__':
+
+    bullshit_generator = BullshitGenerator()
+    bullshit_generator.populate()
