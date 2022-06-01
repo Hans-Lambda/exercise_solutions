@@ -3,9 +3,7 @@
 # ex.
 # some_list = [Client("SomeValue, 1, "SomeOtherValue"), Client("SomeoneElse" ...
 
-clients = []
-
-partners = []
+users = []
 
 bikes = []
 

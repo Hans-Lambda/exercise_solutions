@@ -1,168 +1,192 @@
 import db
-from datetime import datetime as dt
+import uuid
+import main
+import datetime as dt
 
-
-class Bike:
-
-    def __init__(self, age, manufacturer, type, partner):
-
-        self.age = age
-        self.manufacturer = manufacturer
-        self.type = type
-        self.partner = partner
-        self.status = "AVAILABLE"
-
-
-class RentManagement:
-
-    def __init__(self):
-        pass
-
-    def add_bikes(self, bike):
-        db.bikes.append(bike)
-
-    def remove_bikes(self, bike):
-        db.bikes.remove(bike)
-
-    def choose_bike(self):
-        # ToD: implement
-        return self.bike
-
-    def choose_billing_method(self):
-        # ToD: Implement
-        choice = input("Please choose a billing method: ")
-
-        return self.billing_method
-
-    def rent(self, client, bike):
-
-        billing_method = self.choose_billing_method()
-        new_bill = Bill(client, bike.partner, bike, billing_method)
-        Bill.open_bill(new_bill)
-        Bill.print_bill(new_bill)
-
-    def return_bycicle(self):
-        id = input("Please provide contract ID: ")
-        for bill in db.rents:
-            if id == bill.id:
-                Bill.close_bill(bill)
-        else:
-            print("Not a valid ID")
-
-    def bycicles_list(self):
-        for bike in db.bikes:
-            print(f"Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}")
-
-    def bills_list(self):
-        for bill in db.rents:
-            Bill.print_bill(bill)
 
 
 class Bill:
 
-    def __init__(self, client, partner, bike, billing_method):
-
-        self.status = "Pending"
-        self.partner = partner
-        self.client = client
-        self.bike = bike
-        self.billing_method = billing_method
-        self.date = dt.now()
-        self.id = f"{partner[0]}{client[0]}{bike[0]}"       # or something else
-
-
-    def open_bill(self, bill):
-        for bike in db.bikes:
-            if bill.bike == bike:
-                bike.status = "NOT AVAILABLE"
-        db.rents.append(bill)
-
-    def close_bill(self, bill):
-        for open_bill in db.rents:
-            if bill == open_bill:
-                open_bill.status = "CLOSED"
-                used = open_bill.bike
-        for bike in db.bikes:
-            if used == bike:
-                bike.status = "AVAILABLE"
-
-    def print_bill(self, bill):
-        print(f"Status: {bill.status}, Client: {bill.client}, Partner: {bill.partner}, Bike: {bill.bike}, "
-              f"Billing Method: {bill.billing_method}, Date of Contract: {bill.date}")
-
-
-class BillingMethod:
 
     def __init__(self):
 
-        billing_method = None
+        self.status = None
+        self.partner = None
+        self.client = None
+        self.bike = None
+        self.billing_method = None
+        self.date = None
+        self.id = None
+        self.price = None
 
-    def pay_by_km(self):
-        billing_method = "Pay by KM"
-        return billing_method
+    def billing_method(self):
 
-    def pay_by_days(self):
-        billing_method = "Pay by Day"
-        return billing_method
+        choice = int(input("How would you like to pay? >>>"))
+        print("1. By KM - 2.00 EUR per km")
+        print("2. By Days - 25.00 EUR per day")
+        print("3. By Hour - 5.00 EUR per hour")
+        while choice != 0:
 
-    def pay_by_hour(self):
-        billing_method = "Pay by Hour"
-        return billing_method
+            if choice == 1:
+                return lambda a: a * 2
+            elif choice == 2:
+                return lambda b: b * 25
+            elif choice == 3:
+                return lambda c: c * 5
+
+    def new_bill(self, user, bike, billing_method):
+
+        self.status = "Pending"
+        self.partner = bike.partner
+        self.client = user
+        self.bike = bike
+        self.billing_method = billing_method
+        self.date = dt.datetime.now()
+        self.id = uuid.uuid4()
+        self.price = None
 
 
-class Person:
+class Bike:
 
-    def __init__(self, name, address, bank_account):
+    def __init__(self):
 
+        self.age = None
+        self.manufacturer = None
+        self.type = None
+        self.partner = None
+        self.status = None
+        self.status = uuid.uuid4()[:5]
+
+    def add_bike(self, user, bike):
+
+        print("Please provide age, manufacturer and type!")
+        bike.age = input("How old is your bike? >>> ")
+        bike.manufacturer = input("Which Manufacturer? >>> ")
+        bike.type = input("Which Type? >>> ")
+        bike.partner = user
+        bike.status = "AVAILABLE"
+
+        db.bikes.append(bike)
+
+    def get_bike_by_id(self, id):
+
+        for bike in db.bikes:
+            if bike.id == id:
+                return bike
+
+
+class User:
+
+    def __init__(self):
+
+        self.username = None
+        self.password = None
+        self.name = None
+        self.address = None
+        self.client = None
+        self.partner = None
+
+    def update_data(self, username, password, name, address, client, partner):
+
+        self.username = username
+        self.password = password
         self.name = name
         self.address = address
-        self.bank_account = bank_account
-
-
-class Client(Person):
-
-    def __init__(self, name, address, bank_account):
-        super().__init__(name, address, bank_account)
-
-        self.rental_contracts = []
-
-
-class Partner(Person):
-
-    def __init__(self, name, address, bank_account):
-        super().__init__(name, address, bank_account)
-
-        self.bikes = []
-
-
-class ClientManagement:
-
-    def __init__(self, client):
         self.client = client
-
-    def get_client(self):
-        #ToD imnplement
-        return client
-
-    def add_client(self, client):
-        db.clients.append(client)
-
-    def remove_client(self, client):
-        db.clients.remove(client)
-
-    def login(self):
-        pass
-
-
-
-class PartnerManagement:
-
-    def __init__(self, partner):
         self.partner = partner
 
-    def add_partner(self, partner):
-        db.partners.append(partner)
 
-    def remove_partner(self, partner):
-        db.partners.remove(partner)
+class UserManagement(User):
+
+    def __init__(self):
+        super().__init__()
+
+    def login(self):
+
+        username = input("Username: >>> ")
+        password = input("Password: >>> ")
+
+        for user in db.users:
+            if username == user.username and password == user.password:
+                return user
+
+    def register(self):
+
+        username = input("Choose Username: >>> ")
+        password = input("Choose Password: >>> ")
+        name = input("Your full name: >>> ")
+        address = input("Your address: >>> ")
+        rent = input("Do you plan to rent bikes? Y/N >>> ")
+        client = True if rent in ["Y", "y", "Yes", "yes"] else False
+        rent_out = input("Do you plan to rent out bikes? Y/N >>> ")
+        partner = True if rent_out in ["Y", "y", "Yes", "yes"] else False
+
+        new_user = User()
+        new_user.update_data(username, password, name, address, client, partner)
+        db.users.append(new_user)
+
+        return new_user
+
+    def manage(self):
+
+        print("Login or Register!")
+        print("1. Login")
+        # maybe add update data
+        print("2. Register")
+        print("0. Exit")
+        option = -1
+        option = int(input("Type an option >> "))
+
+        while option != -1:
+
+            if option == 1:
+                self.login()
+
+            elif option == 2:
+                self.register()
+
+
+class RentManagement(UserManagement, Bill, Bike):
+
+    def __init__(self):
+        super().__init__()
+
+    def rent(self):
+        users_management = UserManagement()
+        user = users_management.manage()
+        list_of_bikes = self.bycicles_list()
+        [print(k, v) for k, v in list_of_bikes]
+        choice = int(input("Please choose a bike: >>> "))
+
+        for bike in db.bikes:
+            if list_of_bikes[choice] == bike:
+                self.new_contract(user, bike)
+            else:
+                main.main_menu()
+
+    def bycicles_list(self):
+        list_of_bikes = {}
+        counter = 1
+        for bike in db.bikes:
+            list_of_bikes[counter] = [f". Type: {bike.type}, Age: {bike.age}, Manufacturer: {bike.manufacturer}, Status: {bike.status}, ID: {bike.id}"]
+            counter += 1
+        return list_of_bikes
+
+
+    def new_contract(self, user, bike):
+
+        bill = Bill()
+        billing = bill.billing_method()
+        bike.status = "NOT AVAILABLE"
+        bill.new_bill(user, bike, billing)
+        db.rents.append(bill)
+        print(f"You successfully rented a bike!")
+
+    def return_bycicle(self):
+
+        id = input("Please provide the id of the bycycle you like to return: >>>")
+        bike = Bike().get_bike_by_id(id)
+
+
+        pass
 
