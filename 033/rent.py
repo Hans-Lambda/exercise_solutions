@@ -109,7 +109,6 @@ class UserManagement(User):
     def login(self):
 
         counter = 0
-
         while True:
             if counter == 3:
                 print("You provided wrong login data three times. Contact the admin!")
@@ -183,11 +182,30 @@ class RentManagement(UserManagement, Bill, Bike):
         list_of_bikes = self.bycicles_list()
         [print(bike) for bike in list_of_bikes]
 
-        choice = input("\nPlease choose a bike by ID: >>> ")
+        # choice = input("\nPlease choose a bike by ID: >>> ")
+        #
+        # for bike in db.bikes:
+        #     if choice == bike.id:
+        #         self.new_contract(user, bike)
 
-        for bike in db.bikes:
-            if choice == bike.id:
-                self.new_contract(user, bike)
+
+        while True:
+            try:
+                option = input("\nPlease choose a bike by ID or type 0 to exit: >>> ")
+
+                if option != "0":
+                    for bike in db.bikes:
+                        if option == bike.id:
+                            self.new_contract(user, bike)
+                    continue
+
+                if option == "0":
+                    break
+
+                assert option in ([0] or [bike.id for bike in db.bikes])
+            except AssertionError:
+                print("Oops! That was no valid choice. Try again...")
+
 
     def print_bycycle_list(self):
         for bike in db.bikes:
@@ -210,18 +228,18 @@ class RentManagement(UserManagement, Bill, Bike):
 
     def return_bycicle(self):
 
-        bike_id = input("Please provide the id of the bycycle you like to return: >>>")
+        bike_id = input("Please provide the id of the bycycle you like to return: >>> ")
         returned_bike = Bike().get_bike_by_id(bike_id)
         for bike in db.bikes:
             if returned_bike == bike:
                 bike.status = "AVAILABLE"
         bill_to_close = None
         for bill in db.rents:
-            if bike == bill.bike:
+            if returned_bike == bill.bike:
                 bill_to_close = bill
         amount = int(input("How many km/days/hours: >>> "))
         bill_to_close.price = bill_to_close.billing_method(amount)
-        print(f"You have to pay {bill_to_close.price}")
+        print(f"You have to pay {bill_to_close.price} EUR")
         print("Thank you for renting from us!")
         bill_to_close.status = "Closed"
 
@@ -236,12 +254,12 @@ class RentManagement(UserManagement, Bill, Bike):
 
     def report(self):
 
-        bills_list = []
+        closed_bills = []
         total = 0
         for bill in db.rents:
             if bill.status == "Closed":
-                bills_list.append(bill)
+                closed_bills.append(bill)
                 total += bill.price
 
-        [print(f"{bill.client.name} rented bike Nr. {bill.bike.id} on {bill.date}. Price: {bill.price}") for bill in bills_list]
+        [print(f"{bill.client.name} rented bike Nr. {bill.bike.id} on {bill.date}. Price: {bill.price}") for bill in closed_bills]
         print(f"Total income so far: {total} EUR")

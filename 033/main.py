@@ -10,8 +10,13 @@ def main_menu():
     print("5. Incoming Report")
     print("6. Add Bike")
     print("0. Exit")
-    opt = int(input("Type an option >> "))
-    return opt
+
+    while True:
+            try:
+                opt = int(input("Type an option >>> "))
+                return opt
+            except ValueError:
+                print("Oops!  That was no valid number.  Try again...")
 
 
 if __name__ == '__main__':
@@ -37,7 +42,6 @@ if __name__ == '__main__':
         elif option == 5:
             print(rent_management.report())
         elif option == 6:
-            user = None
             user = rent_management.manage()
             if user is True:
                 bike.add_bike(user)
