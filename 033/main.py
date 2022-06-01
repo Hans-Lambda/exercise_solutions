@@ -21,8 +21,11 @@ def main_menu():
 
 if __name__ == '__main__':
 
+    # this generates random users and bikes to debug
+    # list of users/passwords printed on start
     bullshit_generator = BullshitGenerator()
     bullshit_generator.populate()
+
     rent_management = RentManagement()
     bike = Bike()
 
