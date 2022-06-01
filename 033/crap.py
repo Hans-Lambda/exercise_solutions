@@ -1,5 +1,7 @@
 class BullshitGenerator:
 
+    names = ["Franz", "Billy", "Lama", "Mathias"]
+
     def __init__(self):
         pass
 

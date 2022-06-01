@@ -52,7 +52,7 @@ class Bike:
         self.type = None
         self.partner = None
         self.status = None
-        self.id = uuid.uuid4()[:5]
+        self.id = str(uuid.uuid4())[:5]
 
     def add_bike(self, user):
 
@@ -135,13 +135,11 @@ class UserManagement(User):
         option = -1
         option = int(input("Type an option >> "))
 
-        while option != -1:
+        if option == 1:
+            return self.login()
 
-            if option == 1:
-                self.login()
-
-            elif option == 2:
-                self.register()
+        elif option == 2:
+            return self.register()
 
 
 class RentManagement(UserManagement, Bill, Bike):
