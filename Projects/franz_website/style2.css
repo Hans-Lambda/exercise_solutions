@@ -1,0 +1,72 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.header, .footer {
+    width: 100%;
+    position: fixed;
+    padding: 10px 0;
+}
+
+.header {
+    top: 0;
+    height: 5%;
+    background-color: aquamarine;
+}
+
+.footer {
+    bottom: 0;
+    height: 10%;
+    background-color: aqua;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+
+.main_menu {
+    display: flex;
+}
+
+.menu1 {
+    width: 15%;
+    position: fixed;
+    background-color: moccasin;
+    height: 85%;
+}
+
+.main1 {
+    margin-left: 15%;
+    width: 85%;
+    background-color: salmon;
+    height: 3000px;
+}
+
+.section1 {
+    background-color: salmon;
+    height: 500px;
+}
+
+.section2 {
+    background-color: moccasin;
+    height: 500px;
+}
+
+.section3 {
+    background-color: lightskyblue;
+    height: 500px;
+}
+
+.button {
+    text-align: center;
+    background-color: white;
+    border: solid 2px;
+    padding: 5px;
+}

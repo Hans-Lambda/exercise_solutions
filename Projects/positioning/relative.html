@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>relative</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-relative">
+        <div class="relative-block">
+            <!--If you make the child position: absolute;
+            but don’t apply any top/right/bottom/left then flexbox alignment will still apply to it-->
+            <div class="absolute-block"></div>
+        </div>
+        <!--absolute-block doesn't respect relative position, because it's position is relative to the screen-->
+        <div class="absolute-block"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,466 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+/*header and navbar*/
+
+/*
+resources:
+transparent border below navbar
+https://stackoverflow.com/questions/61064588/add-a-border-bottom-to-a-bootstrap-navbar-link
+*/
+
+.header {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: white;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	flex-shrink: 0;
+}
+
+.top_nav {
+    display: flex;
+    width: 677,5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3D3D3;
+    margin-top: -1px;
+}
+
+.nav_filler {
+    display: flex;
+    margin: 0px;
+    height: 29px;
+    flex-grow: 1;
+    background-color: #D3D3D3;
+    border-bottom: 15px solid #03aff5;
+}
+
+.nav_button a {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-family: Roboto, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-bottom: 15px solid #03aff5;
+}
+
+/* https://codeutility.org/css-first-letter-selector-doesnt-work-for-link-stack-overflow/ */
+
+.nav_button a:first-letter {
+  color: #03aff5;
+}
+
+.nav_button a:hover {
+    background-color: black;
+    color: #D3D3D3;
+    border-bottom: 15px solid #D3D3D3;
+
+}
+
+/*main content*/
+
+.section {
+    width: 100%;
+    margin-top: 44px;
+    margin-bottom: 65px;
+    line-height: 1.5em;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.section_separator {
+    height: 15px;
+    background-color: #03aff5;
+}
+
+.section0 {
+    width: 100%;
+    color: #D3D3D3;
+    background-color: #00006a;
+    background-image: url("/assets/images/background.jpg");
+    opacity: 0.9;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	margin-top: -40px;
+	scroll-margin-top: 20px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutme_text {
+    padding: 3em;
+    display: block;
+    position: relative;
+    max-width: 720px;
+    text-align: center;
+}
+
+.aboutme_image {
+    display: flex;
+    position: relative;
+    max-width: 336px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.me_image {
+    border-radius: 50%;
+    padding: 3em;
+    max-width: 15em;
+}
+
+.section1 {
+    width: 100%;
+    text-indent: 50px;
+    scroll-margin-top: 20px;
+}
+
+.section2 {
+    width: 100%;
+    scroll-margin-top: 20px;
+    }
+
+.skill_cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill_card {
+    max-width: 400px;
+    min-width: 10em;
+    min-height: 260px;
+    height: auto;
+    /*h-offset v-offset blur spread color*/
+    box-shadow: 3px 3px 10px black;
+    margin: 2em;
+    line-height: 1.5em;
+}
+
+/* GIF - https://www.w3schools.com/css/css_image_sprites.asp */
+
+.skill_card_image {
+    width: 100%;
+    min-width: 400px;
+    height: 50px;
+    background: url(/assets/images/matrix_code2.gif) 0 0;
+    /* cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit*/
+    object-fit: cover;
+}
+
+.skill_card_title {
+    padding: .5em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skill_card_description {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.skill_row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.5em;
+}
+
+.skill_level {
+    display: block;
+    margin-left:auto;
+    margin-right:0;
+}
+
+.section3 {
+    width: 100%;
+    scroll-margin-top: 20px;
+}
+
+/* work, education, publication, research entries */
+
+.work_ed_entry {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+
+.line1 {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: solid 2px #04b5f9;
+}
+
+.line2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.line3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.section4 {
+    width: 100%;
+    scroll-margin-top: 20px;
+}
+
+.section5 {
+    width: 100%;
+    scroll-margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    background-color: #D3D3D3;
+    flex-shrink: 0;
+}
+
+.contact {
+    height: 50px;
+}
+
+/* Fonts */
+/*
+google fonts: https://www.w3schools.com/css/css_font_google.asp
+*/
+
+.section_heading {
+    text-align: center;
+    font-size: 54px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: normal;
+    text-indent: 0px;
+    margin: 20px;
+    color: #00006a;
+}
+
+.section_description {
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    text-indent: 0px;
+    color: #00006a;
+}
+
+.section_heading_aboutme {
+    font-family: "Brush Script MT",sans-serif;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: normal;
+    text-indent: 0px;
+    margin: 20px;
+    color: #D3D3D3;
+}
+
+.section_description_aboutme {
+    font-family: "Gill Sans",serif;
+    font-size: 24px;
+    padding-top: 1em;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    text-indent: 0px;
+    color: #D3D3D3;
+}
+
+.section_content {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* text indent */
+
+h3 {
+    text-indent: 0px;
+    font-family: "Ms Madi", Verdana, sans-serif;
+    font-size: 38px;
+    color: #4D73A5;
+}
+
+p {
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: normal;
+}
+
+/* Icons */
+/* <span class="fa-solid fa-burger"> */
+
+i {
+    color: #03aff5;
+}
+
+/* custom font integrations */
+/* https://medialoot.com/blog/how-to-use-web-fonts/ */
+/* important: no font-weight in font-face, otherwise font will be fucked up */
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+        url('assets/fonts/Roboto/Roboto-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('assets/fonts/Roboto/Roboto-Black.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+        url('assets/fonts/Roboto/Roboto-BlackItalic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('assets/fonts/Roboto/Roboto-Bold.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('assets/fonts/Roboto/Roboto-Light.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('assets/fonts/Roboto/Roboto-Medium.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url('assets/fonts/Roboto/Roboto-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+        url('assets/fonts/Roboto/Roboto-Italic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('assets/fonts/Roboto/Roboto-Thin.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+        url('assets/fonts/Roboto/Roboto-ThinItalic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+        url('assets/fonts/Roboto/Roboto-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('assets/fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+        url('assets/fonts/Roboto/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

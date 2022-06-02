@@ -1,0 +1,78 @@
+/*space is always relative to parent*/
+html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    height: 100%;
+}
+
+div {
+    background-color: black;
+}
+
+/*class selector*/
+/*display controls how elements are displayed*/
+/*flex direction: row positions the elements in the menu class next to each other*/
+/*flex-direction: column positions elements on top of each other*/
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    height: 7%;
+    color: white;
+    background-color: black;
+}
+
+.footer {
+    background-color: grey;
+    height: 13%;
+}
+
+.content {
+    background-color: lightgrey;
+    height: 80%;
+}
+
+.button {
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 20%;
+    height: 100%-10px;
+    background-color: #1dd117;
+}
+
+/*hover selector - change color while hovering*/
+
+.button:hover {
+    background-color: #0a7d06;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+   color: white;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #1dd117;
+}
+
+table {
+    border: solid;
+    border-width: 5px;
+    width: 40%;
+    text-align: left;
+}
+
+.column {
+    width: 50%;
+}

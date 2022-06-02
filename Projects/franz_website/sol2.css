@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.screen {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.logo {
+    margin-right: 50px;
+    height: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+    background: white;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.section1 {
+padding-top: 50px;
+    height: 300px;
+    width: 100%;
+    background-color: lightpink;
+}
+
+.section2 {
+    height: 300px;
+    width: 100%;
+    background-color: orange;
+}
+
+.section3 {
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+}

@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.block-layout {
+    display: block;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+
+/*aligning blocks below each other*/
+.block {
+/*shorthand command for border*/
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+}
+
+/*aligning blocks next to each other*/
+.flex-layout {
+    display: flex;
+    /*flex-direction: row makes the blocks align next to each other and also makes the grow apply to width*/
+    flex-direction: row;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+
+.flex-block-1 {
+    border: 1px solid black;
+    background-color: orange;
+    /*flex-grow: 1 is default size of block*/
+    flex-grow: 1;
+    height: 80px;
+}
+
+.flex-block-2 {
+    border: 1px solid black;
+    background-color: red;
+    /*flex-grow: 3 makes it 3x as big as the default*/
+    flex-grow: 2;
+    height: 80px;
+}
+
+.flex-block-customized {
+    margin: 30px;
+    background-color: blue;
+}
+
+.container {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+}
+
+/*absolute positioning - related to the parent (or screen?)*/
+
+.absolute-block {
+    position: absolute;
+    /* top, right, bottom, left also work in %
+    top overrides bottom */
+    top: 0px;
+    right: 30px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    background-color: red;
+}
+
+/*relative positioning - relative to screen or parent*/
+
+.container-relative {
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.relative-block {
+    position: relative;
+    top: 40px;
+    /* if right is set to a huge number it's outside the screen - possible to hide things this way*/
+    right: 30px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+}
+
+/*fixed positioning*/
+
+.big-container {
+    height: 4000px;
+    background-color: lightblue;
+}
+
+.fixed-block {
+/*block stays in position no matter the scrolling*/
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+}
