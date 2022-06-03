@@ -53,7 +53,7 @@ class BikeController:
     def list_bikes(self):
 
         for bike in db.bikes:
-            print(f"Type: {bike.type_}, Manufacturer: {bike.manufacturer}, Age: {bike.age}, Bike ID: {bike.id}")
+            print(f"Type: {bike.type_}, Manufacturer: {bike.manufacturer}, Age: {bike.age}, Status: {bike.status}, Bike ID: {bike.id}")
 
 
 class BillingController:
