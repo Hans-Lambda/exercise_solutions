@@ -68,10 +68,10 @@ class SubMenu:
             user = self.user_controller.active_user
             id = input("Please provide the ID of the bike you wish to rent: ")
             bike = self.bike_controller.get_bike_by_id(id)
-            option = self.billing_menu()
-            billing = self.billing_controller.billing_method(option)
-            print(billing)
-            bill = self.billing_controller.create_bill(bike, user, billing[0], billing[1])
+            #option = self.billing_menu()
+            self.billing_method, self.price = self.billing_controller.billing_method(self.billing_menu())
+            print(self.billing_method, self.price)
+            self.billing_controller.create_bill(bike, user, self.billing_method, self.price)
 
     def return_bike_menu(self):
 

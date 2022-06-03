@@ -89,11 +89,11 @@ class BillingController:
     def billing_method(self, choice):
 
         if choice == 1:
-            return ["Pay per KM", lambda b: b * 0.5]
+            return "Pay per KM", lambda amount: amount * 0.5
         if choice == 2:
-            return ["Pay per Hour", lambda b: b * 7.5]
+            return "Pay per Hour", lambda amount: amount * 7.5
         if choice == 3:
-            return ["Pay per Day", lambda b: b * 45.0]
+            return "Pay per Day", lambda amount: amount * 45.0
 
 
 class InputController:

@@ -93,9 +93,5 @@ M
 Projects/Psych_help/README.md,d/4/d43c7b4dd100bfe8eb378fd1488ccfd53bcce157
 O
 Projects/Psych_help/src/main.py,7/0/7003ca28a3afe550d532e9373760d2ba63b74d52
-9
-	033/db.py,c/b/cbd714c0e7b2702c958c7084d4fd002709a52659
 =
 033/README.md,e/2/e2a02eca9dd110d3f761b02ad3e8d6066b55eccd
-;
-033/crap.py,5/9/59f5dd5be906643984490f9ebbd278356fa81c1d
