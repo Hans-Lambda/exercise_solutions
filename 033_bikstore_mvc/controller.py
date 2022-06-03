@@ -49,11 +49,10 @@ class BikeController:
         else:
             return choice
 
-
     def list_bikes(self):
 
         for bike in db.bikes:
-            print(f"Type: {bike.type_}, Manufacturer: {bike.manufacturer}, Age: {bike.age}, Bike ID: {bike.id}")
+            print(f"Type: {bike.type_}, Manufacturer: {bike.manufacturer}, Age: {bike.age}, Status: {bike.status}, Bike ID: {bike.id}")
 
 
 class BillingController:
@@ -105,5 +104,3 @@ class InputController:
             except ValueError:
                 print("Oops!  That was no valid number.  Try again...")
                 break
-
-
