@@ -32,7 +32,7 @@ class Bill:
         self.bike = bike
         self.client = client
         self.date = dt.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
-        self.billing_method = None
+        self.billing_method = billing_method
         self.id = uuid.uuid4()
         self.status = "Pending"
-        self.price = None
+        self.price = price
