@@ -77,7 +77,7 @@ class SubMenu:
         for bill in db.bills:
             if bill.bike.id == id:
                 res = bill.bike
-                print(f"You choose to {bill.billing_method}. How many km, hors, days did you use the bike?")
+                print(f"You choose to {bill.billing_method}. How many km, hours, days did you use the bike?")
         amount = self.input_controller.int_check()
         self.billing_controller.close_bill(res, amount)
 
