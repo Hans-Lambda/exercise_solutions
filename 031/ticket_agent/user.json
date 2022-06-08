@@ -1,0 +1,66 @@
+[
+  {
+    "username": "user1",
+    "password": "somepass",
+    "name": "User One",
+    "email": "user@one.com",
+    "is_active": true,
+    "is_subscriber":  true
+  },
+  {
+    "username": "user2",
+    "password": "somepa323ss",
+    "name": "User Two",
+    "email": "user@two.com",
+    "is_active": false,
+    "is_subscriber":  true
+  },
+  {
+    "username": "user3",
+    "password": "som2323epass",
+    "name": "User Three",
+    "email": "user@three.com",
+    "is_active": false,
+    "is_subscriber":  false
+  },
+  {
+    "username": "user4",
+    "password": "somepass12",
+    "name": "User Four",
+    "email": "user@four.com",
+    "is_active": false,
+    "is_subscriber":  true
+  },
+  {
+    "username": "user6",
+    "password": "12321321",
+    "name": "User Five",
+    "email": "user@five.com",
+    "is_active": false,
+    "is_subscriber":  false
+  },
+  {
+    "username": "user7",
+    "password": "213213",
+    "name": "User Six",
+    "email": "user@six.com",
+    "is_active": true,
+    "is_subscriber":  false
+  },
+  {
+    "username": "user8",
+    "password": "somep213ass",
+    "name": "User Seven",
+    "email": "user@seven.com",
+    "is_active": true,
+    "is_subscriber":  false
+  },
+  {
+    "username": "user9",
+    "password": "somepass",
+    "name": "User Eight",
+    "email": "user@eight.com",
+    "is_active": true,
+    "is_subscriber":  true
+  }
+]

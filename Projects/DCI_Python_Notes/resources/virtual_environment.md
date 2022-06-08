@@ -43,3 +43,7 @@
 ## 8. Setup.py
 
 * import setuptools
+* STRG + Q : show all (required) attributes
+
+* setup.cfg as alternative
+* setup.py will then load setup.cfg

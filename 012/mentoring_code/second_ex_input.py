@@ -1,0 +1,17 @@
+if __name__ == '__main__':
+    print('Please type your name:')
+    name = input()
+    print('Please type your age:')
+    age = input()
+    print('Please type your address:')
+    address = input()
+    print('Please type your weight:')
+    weight = input()
+    print('Please type if you own a pet (True/False):')
+    owns_a_pet = input()
+
+    print(name)
+    print(age)
+    print(address)
+    print(weight)
+    print(owns_a_pet)

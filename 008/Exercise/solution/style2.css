@@ -1,0 +1,48 @@
+html, body, screen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+    background: white;
+    margin: 10px;
+}
+
+.section1 {
+    height: 300px;
+    width: 100%;
+    background-color: lightpink;
+}
+
+.section2 {
+    height: 300px;
+    width: 100%;
+    background-color: orange;
+}
+
+.section3 {
+    height: 300px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background: lightgray;
+}
