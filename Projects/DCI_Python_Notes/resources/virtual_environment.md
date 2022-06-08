@@ -42,8 +42,16 @@
 
 ## 8. Setup.py
 
+[Setup.py / Setup.cfg](url="https://towardsdatascience.com/setuptools-python-571e7d5500f2#:~:text=be%20more%20appropriate.-,The%20setup.,as%20the%20command%20line%20interface")
+
+[Python Docs](url="https://docs.python.org/3/distutils/setupscript.html")
+
 * import setuptools
 * STRG + Q : show all (required) attributes
 
 * setup.cfg as alternative
 * setup.py will then load setup.cfg
+
+## 9. Templates
+
+[Templates](url="https://github.com/JetBrains/python-skeletons")
