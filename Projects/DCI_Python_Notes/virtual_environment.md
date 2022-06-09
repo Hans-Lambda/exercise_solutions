@@ -55,3 +55,20 @@
 ## 9. Templates
 
 [Templates](url="https://github.com/JetBrains/python-skeletons")
+
+* all packages need an __init__.py file
+
+* python setup.py sdist : makes a package from the package named in setup.py?
+* packages=find_packages()
+
+* twine : twine upload -r testpypy dist/* : test package on twine
+* mailinator
+* https://truveris.github.io/articles/configuring-pypirc/
+* https://packaging.python.org/en/latest/guides/using-testpypi/
+
+* pip install -e . : pip will look in the current folder for a python package to install in the current virtual environment
+
+* pip freeze : will show all packages installed in the current installation
+
+* example : pip install -i https://test.pypi.org/simple/ Be-A-Man 
+* upgrade : pip install -i https://test.pypi.org/simple/ Be-A-Man --upgrade
