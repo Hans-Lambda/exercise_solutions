@@ -58,6 +58,8 @@
 
 * all packages need an __init__.py file
 
+## 10. Making a Package and publish it
+
 * python setup.py sdist : makes a package from the package named in setup.py?
 * packages=find_packages()
 

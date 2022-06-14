@@ -3,12 +3,6 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ^
 ..idea/inspectionProfiles/profiles_settings.xml,1/e/1e9075f5bf079c01ef2c910709e91a497d262080
-I
-034/mvc_example/models.py,e/d/edb52b19be238892362210d4c81484ec936cee02
-M
-034/mvc_example/controller.py,5/e/5e8d9045e8c904be8bd937e72353a73a30925ec3
-G
-034/mvc_example/main.py,b/9/b9368840ff0c52a39e6fe6d0d947c9993586ea05
 E
 034/mvc_example/db.py,6/f/6f4533f26a56a8a3a3bfd06207223f7e25560e3f
 O
@@ -95,12 +89,6 @@ O
 Projects/Psych_help/src/main.py,7/0/7003ca28a3afe550d532e9373760d2ba63b74d52
 =
 033/README.md,e/2/e2a02eca9dd110d3f761b02ad3e8d6066b55eccd
-H
-033_bikstore_mvc/main.py,8/6/86cde60219fca5716896e3ddf899e64448531211
-I
-033_bikstore_mvc/model.py,a/8/a8bfb73db39524efaa54b1b51e79b8d69d480a76
-N
-033_bikstore_mvc/controller.py,a/d/adb1d8698c5e89abbe35372a62a9ab9e6f292186
 ;
 033/rent.py,f/1/f1764963c7775c35a6e0892347b32f143a9913b4
 9
