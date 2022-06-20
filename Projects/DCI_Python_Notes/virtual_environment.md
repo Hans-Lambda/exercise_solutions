@@ -71,6 +71,7 @@
 * pip install -e . : pip will look in the current folder for a python package to install in the current virtual environment
 
 * pip freeze : will show all packages installed in the current installation
+* pip freeze > FILE_WITH_REQUIREMENTS.txt : will write all installed packages to txt
 
 * example : pip install -i https://test.pypi.org/simple/ Be-A-Man 
 * upgrade : pip install -i https://test.pypi.org/simple/ Be-A-Man --upgrade

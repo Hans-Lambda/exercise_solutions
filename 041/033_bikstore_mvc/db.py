@@ -1,0 +1,6 @@
+
+users = []
+
+bikes = []
+
+bills = []
