@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from controller import BikeController, ClientController, PartnerController, BillingController
-from db import DataController
+from db import DataController, bills, partners, clients, bikes
 from models import Bike, Client, Partner, Bill
 
 
@@ -31,13 +31,13 @@ def list_bikes_by_name(name: str):
 @bike_routes.post('/bikes/add', tags=['bikes'])
 def add_bike(bike: Bike):
     bike_controller.add_bike(bike)
-    data_controller.store_bikes()
+    data_controller.store_data('bikes')
 
 
 @bike_routes.delete('/bikes/remove', tags=['bikes'])
 def remove_bike(id_: str):
     bike_controller.remove_bike(id_)
-    data_controller.store_bikes()
+    data_controller.store_data('bikes')
 
 
 # client routes
@@ -59,19 +59,19 @@ def list_clients_by_name(name: str):
 @bike_routes.post('/clients/add', tags=['clients'])
 def add_client(client: Client):
     client_controller.add_client(client)
-    data_controller.store_clients()
+    data_controller.store_data('clients')
 
 
 @bike_routes.patch('/client/modify', tags=['clients'])
 def modify_client(email: str):
     client_controller.modify_client(email)
-    data_controller.store_clients()
+    data_controller.store_data('clients')
 
 
 @bike_routes.delete('/clients/remove', tags=['clients'])
 def remove_client(email: str):
     client_controller.remove_client(email)
-    data_controller.store_clients()
+    data_controller.store_data('clients')
 
 
 # partner routes
@@ -98,19 +98,19 @@ def list_partners_by_name(name: str):
 @bike_routes.post('/partners/add', tags=['partners'])
 def add_partner(partner: Partner):
     partner_controller.add_partner(partner)
-    data_controller.store_partners()
+    data_controller.store_data('partners')
 
 
 @bike_routes.patch('/partners/modify', tags=['partners'])
 def modify_partner(email: str):
     partner_controller.modify_partner(email)
-    data_controller.store_partners()
+    data_controller.store_data(partners)
 
 
 @bike_routes.delete('/partners/remove', tags=['partners'])
 def remove_partner(email: str):
     partner_controller.remove_partner(email)
-    data_controller.store_partners()
+    data_controller.store_data('partners')
 
 
 # bill routes
@@ -152,4 +152,4 @@ def get_bills_by_client(email: str):
 @bike_routes.post('/bills/new', tags=['bills'])
 def new_bill(client, bike, billing_method, billing):
     billing_controller.new_bill(client, bike, billing_method, billing)
-    data_controller.store_bills()
+    data_controller.store_data('bills')

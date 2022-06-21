@@ -4,38 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - changed gitignore">
-      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/pickle_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/pickle_read_first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/save_load.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources/serialization.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/dont_trigger_me/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/dont_trigger_me/main.py" afterDir="false" />
+    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - Bike Store FastAPI works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/crap.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/crap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/fastapi/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/fastapi/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/fastapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/fastapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/fastapi/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/mvc_example/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/controllers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/mvc_example/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/mvc_example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/mvc_example/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041/mvc_example/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources/FastAPI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/DCI_Python_Notes/FastAPI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655797383614</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="added 041 - Bike Store FastAPI works">
+      <created>1655811626846</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1655811626847</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -513,7 +492,8 @@
     <MESSAGE value="added 041 - FastAPI" />
     <MESSAGE value="added 041 - FastAPI Bike Store" />
     <MESSAGE value="added 041 - changed gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 041 - changed gitignore" />
+    <MESSAGE value="added 041 - Bike Store FastAPI works" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 041 - Bike Store FastAPI works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
