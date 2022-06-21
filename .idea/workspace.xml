@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - FastAPI Bike Store" />
+    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - changed gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -418,7 +421,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655797069120</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added 041 - changed gitignore">
+      <created>1655797189089</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797189089</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added 041 - changed gitignore">
+      <created>1655797282717</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797282717</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added 041 - changed gitignore">
+      <created>1655797375042</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797375042</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +474,8 @@
     <MESSAGE value="added 038 - exceptions&#10;added 039 - datetime" />
     <MESSAGE value="added 041 - FastAPI" />
     <MESSAGE value="added 041 - FastAPI Bike Store" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 041 - FastAPI Bike Store" />
+    <MESSAGE value="added 041 - changed gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 041 - changed gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
