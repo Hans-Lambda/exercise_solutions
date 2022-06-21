@@ -1,4 +1,28 @@
-from models import Bike, Client, Partner, Bill
+from pydantic import BaseModel
+import pickle
+
+
+class Bike(BaseModel):
+
+    id_: str
+    name: str
+    manufacturer: str
+    year: str
+    #partner: Partner
+
+
+def load_data():
+    with open('data.pickle', 'rb') as file:
+        bikes_loaded = pickle.load(file)
+
+        for bike in bikes_loaded:
+            print(f"{bike.name} made by {bike.manufacturer}")
+
+
+def store_data():
+
+    with open('data.pickle', 'wb') as file:
+        pickle.dump(bikes, file)
 
 
 bikes = [
@@ -15,3 +39,9 @@ clients = []
 partners = []
 
 bills = []
+
+
+if __name__ == '__main__':
+
+    store_data()
+    load_data()

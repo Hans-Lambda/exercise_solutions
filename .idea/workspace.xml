@@ -5,8 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - changed gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/pickle_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/pickle_read_first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/save_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources/serialization.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/dont_trigger_me/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/dont_trigger_me/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/crap.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/crap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/033_bikstore_mvc/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/033_bikstore_mvc/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/fastapi/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/fastapi/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/fastapi/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/fastapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/fastapi/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/fastapi/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/mvc_example/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/mvc_example/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/mvc_example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/mvc_example/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041/mvc_example/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/mvc_example/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources/FastAPI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/DCI_Python_Notes/FastAPI.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/PycharmProjects/python-course-2022&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "/home/user/PycharmProjects/exercise_solutions/042 - Tools and Libraries/pickle",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/042 - Tools and Libraries/pickle" />
       <recent name="$PROJECT_DIR$/041" />
       <recent name="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources" />
       <recent name="$PROJECT_DIR$/033" />
@@ -58,8 +89,8 @@
       <recent name="$PROJECT_DIR$/033" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="datetime_and_calendar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039/datetime_and_calendar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exceptions3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="db (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/038" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/038/exceptions3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/042_Tools and Libraries/pickle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042_Tools and Libraries/pickle/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/033_bikstore_mvc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041_FastAPI/fastapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/033_bikstore_mvc/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041_FastAPI/fastapi/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +182,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041/fastapi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041/fastapi/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.datetime_and_calendar" />
-        <item itemvalue="Python.exceptions3" />
+        <item itemvalue="Python.db (2)" />
+        <item itemvalue="Python.db (1)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.db" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655797375042</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added 041 - changed gitignore">
+      <created>1655797383614</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797383614</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

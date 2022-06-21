@@ -1,8 +1,7 @@
-import uuid
-
 from pydantic import BaseModel
 from datetime import datetime
 from typing import Callable
+import uuid
 
 
 class Partner(BaseModel):
