@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - made a versatile save load function for pickle files">
+    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - FastAPI Bike Store fully working">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exercise_solutions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exercise_solutions.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3ff058c7e99357b164fa41c3ca7472d5c0583c5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4379544100a27ea6ab12da1afcda8c83f2d935ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/530ed815af4da1b2a01edc80cbbd594381b71a2d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a1e6f821b59c40ced9ad40772b6e68e32cbf72d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ac629dcc312926fa903ee64f68ce4b7b0c1b822" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973b83f3ce0cac416b121f534ea97fdf3da5bbd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a71c134fc3049d7721c52ae12723283729581732" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa420b13ece3a0789c6bf880537e98aa2aeee175" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b17e7f3e200e72ea93f19113153e472f4a78ac4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2e8c7a6a4d597c97a5ee51661d8067a8b0acf8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9e746bdf06164b43cebb9581c3cebc6fa5dd3a1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bff5fc178b0f1bf98128ccb72f381b7a7a0b2a95" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed47fd163be50aec2ceb552976fd3e3fb589d1fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fae3626c6f70b6bd0307416a7e19dbc903ef3425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/[].pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/bikes.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/clients.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_bikes.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_bills.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_clients.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_partners.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +70,14 @@
       <recent name="$PROJECT_DIR$/033_bikstore_mvc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/042_Tools and Libraries/tests" />
+      <recent name="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load" />
       <recent name="$PROJECT_DIR$/Projects/DCI_Python_Notes" />
       <recent name="$PROJECT_DIR$/033_bikstore_mvc" />
       <recent name="$PROJECT_DIR$/034/mvc_example" />
-      <recent name="$PROJECT_DIR$/034" />
-      <recent name="$PROJECT_DIR$/033" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.pickle_test_versatile_save_load">
     <configuration name="db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,27 +112,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="exercise_solutions" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/042_Tools and Libraries/pickle" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042_Tools and Libraries/pickle/db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,13 +162,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pickle_test_versatile_save_load" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/042_Tools and Libraries/pickle_save_load/pickle_test_versatile_save_load.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pickle_test_versatile_save_load" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.db (2)" />
         <item itemvalue="Python.db (1)" />
-        <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.db" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655811626847</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added 041 - FastAPI Bike Store fully working">
+      <created>1655816313033</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1655816313033</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -501,7 +516,8 @@
     <MESSAGE value="added 041 - FastAPI Bike Store" />
     <MESSAGE value="added 041 - changed gitignore" />
     <MESSAGE value="added 041 - Bike Store FastAPI works" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 041 - Bike Store FastAPI works" />
+    <MESSAGE value="added 041 - FastAPI Bike Store fully working" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 041 - FastAPI Bike Store fully working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
