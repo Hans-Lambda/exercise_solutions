@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - FastAPI Bike Store" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="29veWMtl5hSmVnkbD7HP1DY9eCD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/PycharmProjects/python-course-2022&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/041" />
+      <recent name="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources" />
+      <recent name="$PROJECT_DIR$/033" />
+      <recent name="$PROJECT_DIR$/033_bikstore_mvc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Projects/DCI_Python_Notes" />
+      <recent name="$PROJECT_DIR$/033_bikstore_mvc" />
+      <recent name="$PROJECT_DIR$/034/mvc_example" />
+      <recent name="$PROJECT_DIR$/034" />
+      <recent name="$PROJECT_DIR$/033" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="datetime_and_calendar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/039" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/039/datetime_and_calendar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exceptions3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/038" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/038/exceptions3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041/FastAPI_Bikestore_MVC/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/033_bikstore_mvc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/033_bikstore_mvc/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exercise_solutions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/041/fastapi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/041/fastapi/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.datetime_and_calendar" />
+        <item itemvalue="Python.exceptions3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="" />
+      <created>1653998017181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653998017181</updated>
+    </task>
+    <task id="LOCAL-00001" summary="I was too slow">
+      <created>1654006952863</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654006952863</updated>
+    </task>
+    <task id="LOCAL-00002" summary="better, but not done yet">
+      <created>1654064315785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654064315785</updated>
+    </task>
+    <task id="LOCAL-00003" summary="better, but not done yet">
+      <created>1654065475271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654065475271</updated>
+    </task>
+    <task id="LOCAL-00004" summary="better, but not done yet">
+      <created>1654067072320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654067072320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="better, but not done yet">
+      <created>1654067838339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654067838339</updated>
+    </task>
+    <task id="LOCAL-00006" summary="better, but not done yet">
+      <created>1654070060133</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654070060133</updated>
+    </task>
+    <task id="LOCAL-00007" summary="better, but not done yet">
+      <created>1654073250376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654073250376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="better, but not done yet">
+      <created>1654073847739</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654073847739</updated>
+    </task>
+    <task id="LOCAL-00009" summary="better, but not done yet">
+      <created>1654076049044</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654076049044</updated>
+    </task>
+    <task id="LOCAL-00010" summary="works now. &#10;todo: exceptions, optimizations, alter user data">
+      <created>1654081314761</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654081314761</updated>
+    </task>
+    <task id="LOCAL-00011" summary="works now. &#10;todo: exceptions, optimizations, alter user data">
+      <created>1654081500717</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654081500717</updated>
+    </task>
+    <task id="LOCAL-00012" summary="works now. &#10;todo: exceptions, optimizations, alter user data">
+      <created>1654081550085</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654081550085</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added mechanism to restrict login attempts to three">
+      <created>1654083970933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654083970933</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added exceptions for all input errors&#10;allowed for multiple bikes to be added">
+      <created>1654086382341</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654086382341</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added exceptions for all input errors&#10;allowed for multiple bikes to be added">
+      <created>1654086450987</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654086450987</updated>
+    </task>
+    <task id="LOCAL-00016" summary="finished!!! could add minor shit">
+      <created>1654086714381</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654086714382</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added blocker for rented out bikes">
+      <created>1654090799579</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654090799579</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added blocker for rented out bikes">
+      <created>1654091134956</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654091134956</updated>
+    </task>
+    <task id="LOCAL-00019" summary="something">
+      <created>1654154551466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654154551466</updated>
+    </task>
+    <task id="LOCAL-00020" summary="restructured repos">
+      <created>1654155188374</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654155188374</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added mvc version of bikestore&#10;todo: return bike (some error)">
+      <created>1654188802318</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654188802318</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added mvc version of bikestore&#10;todo: return bike (some error)">
+      <created>1654240389434</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654240389434</updated>
+    </task>
+    <task id="LOCAL-00023" summary="nearly everything works">
+      <created>1654246552071</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1654246552071</updated>
+    </task>
+    <task id="LOCAL-00024" summary="nearly everything works&#10;todo: put majority of rent menu in controller function, because it's too big for view">
+      <created>1654246772855</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1654246772855</updated>
+    </task>
+    <task id="LOCAL-00025" summary="todo: put the majority of rent menu in controller function, because it's too big for view, check availability before renting">
+      <created>1654250650749</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1654250650749</updated>
+    </task>
+    <task id="LOCAL-00026" summary="todo: put the majority of rent menu in controller function, because it's too big for view, check availability before renting">
+      <created>1654250686340</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1654250686340</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added 037 - decorators">
+      <created>1654783622453</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654783622453</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added 038 - exceptions&#10;added 039 - datetime">
+      <created>1655200274022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655200274022</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added 041 - FastAPI">
+      <created>1655713795862</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655713795862</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added 041 - FastAPI">
+      <created>1655715184052</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655715184052</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added 041 - FastAPI Bike Store">
+      <created>1655796793513</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655796793513</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added 041 - FastAPI Bike Store">
+      <created>1655796802437</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1655796802437</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added 041 - FastAPI Bike Store">
+      <created>1655796809689</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1655796809689</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added 041 - FastAPI Bike Store">
+      <created>1655797069120</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1655797069120</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I was too slow" />
+    <MESSAGE value="better, but not done yet" />
+    <MESSAGE value="works now. &#10;todo: exceptions, optimizations, alter user data" />
+    <MESSAGE value="added mechanism to restrict login attempts to three" />
+    <MESSAGE value="added exceptions for all input errors&#10;allowed for multiple bikes to be added" />
+    <MESSAGE value="finished!!! could add minor shit" />
+    <MESSAGE value="added blocker for rented out bikes" />
+    <MESSAGE value="something" />
+    <MESSAGE value="restructured repos" />
+    <MESSAGE value="added mvc version of bikestore&#10;todo: return bike (some error)" />
+    <MESSAGE value="nearly everything works" />
+    <MESSAGE value="nearly everything works&#10;todo: put majority of rent menu in controller function, because it's too big for view" />
+    <MESSAGE value="todo: put the majority of rent menu in controller function, because it's too big for view, check availability before renting" />
+    <MESSAGE value="added 037 - decorators" />
+    <MESSAGE value="added 038 - exceptions&#10;added 039 - datetime" />
+    <MESSAGE value="added 041 - FastAPI" />
+    <MESSAGE value="added 041 - FastAPI Bike Store" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 041 - FastAPI Bike Store" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/033/rent.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/033/rent.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/033/rent.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/033/rent.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/033/rent.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
