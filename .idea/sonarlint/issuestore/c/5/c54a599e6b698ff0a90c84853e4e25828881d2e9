@@ -1,0 +1,6 @@
+
+Ppython:S1751"1Refactor this loop to do more than one iteration.(õïÓ‚8—ïÌ‹˜0
+Xpython:S3516("9Refactor this method to not always return the same value.(ú®Ãô8—ïÌ‹˜0
+Opython:S5806E"+Rename this variable; it shadows a builtin.(‘Ê™íùÿÿÿÿ8—ïÌ‹˜0
+Jpython:S5806L"+Rename this variable; it shadows a builtin.(³†ƒ¦8˜ïÌ‹˜0
+xpython:S1186W"YAdd a nested comment explaining why this method is empty, or complete the implementation.(Ò·¤˜8˜ïÌ‹˜0

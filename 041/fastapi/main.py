@@ -4,13 +4,14 @@ from routes import bike_routes
 
 
 # app related stuff needs to be global to be available
+# FastAPI converts list of objects to JSON file
 app = FastAPI()
 app.include_router(bike_routes)
 
 if __name__ == '__main__':
 
-
-    # refers to our FastAPI app, uvicorn will reload when code is changed, host is local IP
+    # refers to our FastAPI app, uvicorn will reload when code is changed,
+    # host is local IP, port can be anything with 4 digits? (if not already used)
     # change host to real IP to enable people to use our API
 
     # check in browser - http://127.0.0.1:8001/
