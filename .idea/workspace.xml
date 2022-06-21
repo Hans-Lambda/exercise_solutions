@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - Bike Store FastAPI works">
+    <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - made a versatile save load function for pickle files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/[].pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/bikes.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/clients.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_bikes.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_bills.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_clients.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/data_partners.pickle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/041_FastAPI/FastAPI_Bikestore_MVC/routes.py" afterDir="false" />
     </list>
@@ -23,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "last_opened_file_path": "/home/user/PycharmProjects/exercise_solutions/042 - Tools and Libraries/pickle",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/user/PycharmProjects/exercise_solutions/042 - Tools and Libraries/pickle&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/042 - Tools and Libraries/pickle" />
