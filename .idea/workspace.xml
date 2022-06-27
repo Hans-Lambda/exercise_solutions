@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eab887d9-2168-4c77-9db8-ed01f621d9a4" name="Changes" comment="added 041 - FastAPI Bike Store fully working">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/exercise_solutions.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exercise_solutions.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3ff058c7e99357b164fa41c3ca7472d5c0583c5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4379544100a27ea6ab12da1afcda8c83f2d935ac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/530ed815af4da1b2a01edc80cbbd594381b71a2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a1e6f821b59c40ced9ad40772b6e68e32cbf72d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7ac629dcc312926fa903ee64f68ce4b7b0c1b822" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/973b83f3ce0cac416b121f534ea97fdf3da5bbd1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a71c134fc3049d7721c52ae12723283729581732" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa420b13ece3a0789c6bf880537e98aa2aeee175" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b17e7f3e200e72ea93f19113153e472f4a78ac4f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b2e8c7a6a4d597c97a5ee51661d8067a8b0acf8d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b9e746bdf06164b43cebb9581c3cebc6fa5dd3a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bff5fc178b0f1bf98128ccb72f381b7a7a0b2a95" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed47fd163be50aec2ceb552976fd3e3fb589d1fb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fae3626c6f70b6bd0307416a7e19dbc903ef3425" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/DCI_Python_Notes/TDD.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/escapegame_hacking_challenge/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/escapegame_hacking_challenge/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/escapegame_hacking_challenge/riddles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/escapegame_hacking_challenge/story.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a2466a071d08c8bc2174f3cf606ea76b1344b2fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ade6db1dba98d152bc8f6b9115a4fc341cae098f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/DCI_Python_Notes/resources/serialization.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/user/PycharmProjects/exercise_solutions/042 - Tools and Libraries/pickle&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "/home/user/PycharmProjects/python-course-2022",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/042 - Tools and Libraries/pickle" />
@@ -77,7 +69,7 @@
       <recent name="$PROJECT_DIR$/034/mvc_example" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pickle_test_versatile_save_load">
+  <component name="RunManager" selected="Python.main">
     <configuration name="db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exercise_solutions" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pickle_test_versatile_save_load" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.pickle_test_versatile_save_load" />
         <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.db (2)" />
         <item itemvalue="Python.db (1)" />
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655816313033</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="added 041 - FastAPI Bike Store fully working">
+      <created>1655821332509</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1655821332509</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -2112,12 +2112,8 @@ w
 G.idea/sonarlint/issuestore/0/1/0111e311c8207810a99ca49b132691edeaea9b63,c/b/cbe513799f686059205f62e424513af8ed04c320
 w
 G.idea/sonarlint/issuestore/0/0/0034b2d636ed2a7f395562a7d8fcf3c31c42443c,5/4/5474d0b730490da29d0d1eb377dc2a5c4ccc3398
-`
-0Projects/DCI_Python_Notes/virtual_environment.md,a/d/ade6db1dba98d152bc8f6b9115a4fc341cae098f
 L
 039/datetime_and_calendar.py,9/7/9708fdd0beacfd9581a0bd3d3639cd5957b0bc0a
-^
-.Projects/DCI_Python_Notes/advanced_concepts.md,a/2/a2466a071d08c8bc2174f3cf606ea76b1344b2fd
 N
 033_bikstore_mvc/controller.py,a/d/adb1d8698c5e89abbe35372a62a9ab9e6f292186
 H
@@ -2187,8 +2183,6 @@ G.idea/sonarlint/issuestore/f/c/fc7e0b2f7dc189aeec883fea011a9ea1b0e4745e,c/e/ce
 w
 G.idea/sonarlint/issuestore/f/b/fb69c7aadda1b3278793d5d762f48036e60c7044,e/8/e8e6f5defa5be9bd36d425e932adec1b68209ad6
 w
-G.idea/sonarlint/issuestore/f/a/fae3626c6f70b6bd0307416a7e19dbc903ef3425,7/d/7d8a0a235e37368721d3bd05dfb339c64e771934
-w
 G.idea/sonarlint/issuestore/f/a/fac135b89b113974b98a0480d721b24f4b3dfbe8,2/7/2705c783465e125a64647bc5bb6935478cdec8dc
 w
 G.idea/sonarlint/issuestore/f/a/fa11fde90bf120c49b96384044289ee471abf523,8/b/8b1dc9ce11b2c40d85736cf5380fc5481808ebd6
@@ -2214,8 +2208,6 @@ w
 G.idea/sonarlint/issuestore/e/e/eee3e4b836ad0a74ca128b5c5d8fe1d11f50bd64,e/b/ebe92b7a4f798ff22ad352f6fbcfb51d8c7e24bf
 w
 G.idea/sonarlint/issuestore/e/e/ee814f98aed2ed8d2abb9fc4d3aaa5f8412f5aa9,6/a/6a82a45cc5d693850812eee25d033c77001bffc7
-w
-G.idea/sonarlint/issuestore/e/d/ed47fd163be50aec2ceb552976fd3e3fb589d1fb,9/0/90609818689ac1036c29aaef3ecf771975b7eb78
 w
 G.idea/sonarlint/issuestore/e/c/ec4493bb3fbdb831b77a27dca88e5ab22d1af236,9/c/9c07c63e4de419df53aef74866c97fca53bcbab3
 w
@@ -2345,8 +2337,6 @@ G.idea/sonarlint/issuestore/c/0/c0f0ea4f24b1ae8d9ffabf706eb3766a4f6275d2,4/b/4b
 w
 G.idea/sonarlint/issuestore/b/f/bf92a832d9f0b7c870872aa218a02f2d760517b0,6/1/61e7f76c85727d5cbde53cf0bfba89f1e52b47fc
 w
-G.idea/sonarlint/issuestore/b/f/bff5fc178b0f1bf98128ccb72f381b7a7a0b2a95,2/2/22c5aeb751547edfdc775112bd06b325b9df8f8a
-w
 G.idea/sonarlint/issuestore/b/f/bfdad6dea19e3bda3d9c393248671618a7d7bb65,8/5/85c9b76f54fb1cff485060aa1579101cbc403884
 w
 G.idea/sonarlint/issuestore/b/d/bd0e2a352a9f9c0b992226295ab04183cdbcc249,f/3/f35263bb4978b5c8fd6af088921fc6a7076e992e
@@ -2356,8 +2346,6 @@ w
 G.idea/sonarlint/issuestore/b/d/bde61d2a9246b681966b1b0d30e983bb87aadc84,8/c/8c9daf1d0cf51d4532c021bea2779c4c5144c435
 w
 G.idea/sonarlint/issuestore/b/b/bbce732ba68ee50894c7f4cab5328c9a5f6e042b,a/f/af16796d94728f1dd65b51694694a0deb8cd683d
-w
-G.idea/sonarlint/issuestore/b/9/b9e746bdf06164b43cebb9581c3cebc6fa5dd3a1,6/3/63499c22e67ac3b3b8839d49e26b50a0275af553
 w
 G.idea/sonarlint/issuestore/b/8/b8932224a5bcd1771db80810d07a86b2b8e02142,f/a/fa0f2199362b0d9e0eb29b2c17e815c55dea2ea7
 w
@@ -2379,8 +2367,6 @@ G.idea/sonarlint/issuestore/b/5/b5291b9fdc3b945b3819f33af734c312730c5446,8/0/80
 w
 G.idea/sonarlint/issuestore/b/4/b430441347679d0875d2674f9fbee4a9d21e4346,c/e/ce110688e02e9f304ff9fb9060d16365c803980d
 w
-G.idea/sonarlint/issuestore/b/2/b2e8c7a6a4d597c97a5ee51661d8067a8b0acf8d,d/3/d33147d10f3c6b921696010b96b3d34a70339c57
-w
 G.idea/sonarlint/issuestore/b/2/b296af487f307864c88978bdea41bd2e1210f008,8/7/87ba53e86539466afa36957fae5566c32da85095
 w
 G.idea/sonarlint/issuestore/b/2/b2e9b3bc98b561d86fd0d8bf5a8ce87da94f5fcd,c/4/c4ac04f7f3cad1dab3e18c8360a047a8640402c8
@@ -2399,11 +2385,7 @@ G.idea/sonarlint/issuestore/a/e/aecfc083f051aa81c4360798b8bdfd5c3501a8ce,e/1/e1
 w
 G.idea/sonarlint/issuestore/a/e/ae0fb891bc7de3477ce4b3bf73f9d0a679d12a9e,2/4/247ceab9080fed5e36ce40263fdfdafdb9b48fa4
 w
-G.idea/sonarlint/issuestore/a/d/ade6db1dba98d152bc8f6b9115a4fc341cae098f,1/4/1450adb04f7d7949b643f2c4d70678d592790583
-w
 G.idea/sonarlint/issuestore/a/b/ab00b5c4b8bf82479154001118dc565970b675b6,f/4/f42f6ffc9170cc67843b7b1f578213beb47e9f3f
-w
-G.idea/sonarlint/issuestore/a/a/aa420b13ece3a0789c6bf880537e98aa2aeee175,4/d/4d4c046d10e73ddec58d7a1e75059230837c3335
 w
 G.idea/sonarlint/issuestore/a/a/aa2f4b0483d3bb8918901042b47bf49f4f1aa462,d/f/dff99e4a9a42cccb3ad39fcdb7bf8de10ec14985
 w
@@ -2423,15 +2405,11 @@ G.idea/sonarlint/issuestore/a/7/a766453d8944cea0043ab9fd8d9f16b340812d12,3/1/31
 w
 G.idea/sonarlint/issuestore/a/7/a78b69f12d60e951aa217165841d20a1bf4ec2de,d/7/d7c24e03a46c0400b5aaf1ca48da558d075cb8b2
 w
-G.idea/sonarlint/issuestore/a/7/a71c134fc3049d7721c52ae12723283729581732,4/a/4a55001c9888fd5fee8798bf34d2dc7fe724519a
-w
 G.idea/sonarlint/issuestore/a/7/a7cd916cc3a23a095fde081bc8fef371a8d40c2c,0/5/05b60c70b93ab0ae202f6637345a3528ae889366
 w
 G.idea/sonarlint/issuestore/a/7/a78f973a1e82e56f0400872e3a509e158525e69f,2/e/2ec3f36287d94a7a432a37c44c336be5670bc03b
 w
 G.idea/sonarlint/issuestore/a/5/a5071891f1bdabd9bcd004347a0f5ecf3296b497,6/0/60a7b01089c4c9ddcfe8771ce66a082e1279f713
-w
-G.idea/sonarlint/issuestore/a/2/a2466a071d08c8bc2174f3cf606ea76b1344b2fd,5/6/5675e180c20025e78055c338b02f7c85c4052713
 w
 G.idea/sonarlint/issuestore/a/1/a1d6623fdd674b9893d2bbb3240152576fbf50f1,5/4/54e25e8c7e496f67efac78820ced92b4935bddb1
 w
@@ -2629,8 +2607,6 @@ G.idea/sonarlint/issuestore/5/c/5c3e6040aba5508f1c8f50ba94be1db398382ea6,3/6/36
 w
 G.idea/sonarlint/issuestore/5/a/5a4c9cb4eec37d9415551c11e85e51553799fee2,7/7/77582b6719a78d5153289d1e5ead65da4b163329
 w
-G.idea/sonarlint/issuestore/5/a/5a1e6f821b59c40ced9ad40772b6e68e32cbf72d,f/5/f5141d9ca7dc82c26121dedce87dce44d1428827
-w
 G.idea/sonarlint/issuestore/5/8/58f0b665d3cc4f4ee4621466d9340aed65614605,2/4/241e2404777d25bbabc36f65b8fff5a1147a55d3
 w
 G.idea/sonarlint/issuestore/5/7/57f500fb8357077a34392e61942a1db52c4363c9,8/e/8e5a7cad6a372d80a33f2b88e7168e19f9fc7586
@@ -2648,8 +2624,6 @@ w
 G.idea/sonarlint/issuestore/5/4/5474d0b730490da29d0d1eb377dc2a5c4ccc3398,f/f/ffcd1243637c56d0882c05c4e2eb0cba99b7b521
 w
 G.idea/sonarlint/issuestore/5/3/537654029967a801665af454bca8dda9ad4a924c,e/0/e0664a388f0b12f25d2e74cf0fdf9852a919ba68
-w
-G.idea/sonarlint/issuestore/5/3/530ed815af4da1b2a01edc80cbbd594381b71a2d,e/3/e3d61db4424bc79185eeaeaeb97282886c02f5db
 w
 G.idea/sonarlint/issuestore/5/2/521b53815972470e42258fa0af9ac2d39ad93590,0/4/04779d5aa3c3670c5a52d5235b99bd872be05e47
 w
@@ -2702,8 +2676,6 @@ w
 G.idea/sonarlint/issuestore/3/f/3f0f7ce0007d2e952f741f2363b379a56096be29,c/8/c8e3f6506ed4bc623db9ee8dda5b8af162bcd8e3
 w
 G.idea/sonarlint/issuestore/3/f/3fd12e13a3e08e17722d49eb10d711d0b16d2a5c,7/d/7de72c7757b85d3135f85cd34dee49fdaec02f38
-w
-G.idea/sonarlint/issuestore/3/f/3ff058c7e99357b164fa41c3ca7472d5c0583c5a,3/e/3e0434ad1be378752c9ad12d4fd594319770cfd1
 w
 G.idea/sonarlint/issuestore/3/f/3f6ca1b71bfd0281d7ae5d9593b8ae2a4386b19c,5/9/595c27b9345d2dae6d15abbe4749644cab1afc24
 w
@@ -2884,3 +2856,12 @@ j
 :042_Tools and Libraries/pickle_save_load/pickle_example.py,b/4/b4c44881582dcedc52af7a57b58265bd20ae24d2
 c
 3041_FastAPI/FastAPI_Bikestore_MVC/data_bikes.pickle,3/a/3a32c31631d8adc09a30720a4659d3b60b010154
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+W
+'041_FastAPI/FastAPI_Bikestore_MVC/db.py,b/6/b61193bc7c74d62e1c3d24b7c6e7a53959e8387e
+_
+/041_FastAPI/FastAPI_Bikestore_MVC/controller.py,e/5/e5cf1950670f391aa4af1cebf57a1793fc1a8a2b
+R
+"Projects/dont_trigger_me/README.md,f/7/f71629ba63b8d59122384e86e96c7259ddd48866
